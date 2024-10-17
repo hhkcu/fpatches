@@ -1,0 +1,54 @@
+{
+    "default_model": "ponyRealism_v22MainVAE.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "zy_AmateurStyle_v2.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 4.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Enhance",
+        "Fooocus Sharp"
+    ],
+    "default_aspect_ratio": "1152*896",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "ponyRealism_v22MainVAE.safetensors": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/3876538/ponyrealismV22VAE.gWd2.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22ponyRealism_v22MainVAE.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20241017/us-east-1/s3/aws4_request&X-Amz-Date=20241017T203959Z&X-Amz-SignedHeaders=host&X-Amz-Signature=3ac308f6928c4578dbe21cf011632423667e3661ca9d9c93537400ff5da82648"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "zy_AmateurStyle_v2.safetensors": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/3876538/zyAmateurstyleV2.GNdo.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22zy_AmateurStyle_v2.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20241017/us-east-1/s3/aws4_request&X-Amz-Date=20241017T205858Z&X-Amz-SignedHeaders=host&X-Amz-Signature=011f19a95fee8245754d5917d52f4b3733357a7152fbb03a749327c35343cb1a"
+    },
+    "previous_default_models": []
+}
